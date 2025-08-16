@@ -1,0 +1,264 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins", sans-serif;
+}
+
+
+.inicio{
+    padding: 25px;
+    height: 5vh;
+}
+
+.inicio_padre{
+    display: flex;    
+    justify-content: space-between;
+    height: 100vh;
+}
+.name{
+    color: #24262F;
+    padding: 10px;
+    
+}
+.menu{
+    padding: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: bolder;
+}
+a{
+    color: #24262F;
+    padding: 10px;
+}
+a:hover{
+    color: #A3DC9A;
+}
+.chat{
+    padding: 10px;
+    font-size: 24px   ;
+}
+
+.section_first{    
+    padding: 25px;
+    height: 70vh;
+}
+
+
+.container_first{ 
+    display: flex;    
+    justify-content: space-evenly;
+    
+}
+.context_first{
+    padding-top: 80px;
+}
+
+.color_text{
+    padding: 10px;
+    color: #333;
+    font-weight: 500;
+    font-size: larger;
+    display: block
+}
+.color_text3{
+    color: #333;
+    font-weight: 500;
+    font-size: larger;
+}
+.hero{
+    font-size: 70px;
+    line-height: 1;
+}
+.color_punto{
+    color: #A3DC9A;
+    padding: 0px;
+}
+
+
+.image_first{
+    flex: 1;
+    display: flex;
+    max-width: 50vh;
+}
+
+.image_first img{
+    border-radius: 50px;
+    max-width: 300px;
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+    min-height: auto;
+}
+
+button{
+    background-color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #A3DC9A;
+    color: white;
+}
+
+.section_second{
+    display: grid;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.color_project{
+    color: #A3DC9A;
+}
+
+.CARD{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 150vh;
+    min-height: auto;
+    align-items: center;
+}
+
+.card_1{
+    padding: 0px 20px;
+}
+.text_titulo2{
+    padding: 0px 8vh;
+}
+.img_card1{
+    height: 27vh;
+    width: 45vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text_card1{
+    font-size: small;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0px 20px;
+}
+
+.card_2{
+    padding: 20px;
+}
+.img_card2{
+    height: 27vh;
+    width: 65vh;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card_3{
+    padding: 20px;
+}
+.card_4{
+    padding: 0px 20px;
+}
+
+
+.section_fourth{
+    display: grid;
+    justify-content: center;
+    height: 100%;
+    padding: 25px;
+}
+
+.text_titulo{
+    padding: 0px 10px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+.conte_habilidades{
+    display: flex ;
+    flex-wrap: wrap;
+    width: 150vh;
+    min-height: auto;
+    padding: 25px;
+    border-left: 3px solid;
+    border-color: #24262F ;
+}
+.conte_habilidades:hover{
+    border-color: #A3DC9A ;          
+}
+
+.habilidades,.futuros_leng{
+    padding: 20px;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+.style_habild {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.section_fifth{
+    display: grid;
+    justify-content: center;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+}    
+
+.conte_sobreMi{
+    width: 150vh;
+    min-height: auto;
+    padding: 10px;
+}    
+
+.titul_sobreMi{
+
+    line-height: 1.5;
+}    
+
+.info_sobreMi{
+    line-height: 1.5;
+
+}
+.mas_sobreMi{
+    padding: 10px;
+    line-height: 1.5;
+    color: #333;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.section_third{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px;
+    height: auto;
+}
+
+.pie_padre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 25px;
+    height: auto;
+}    
+
+.pie_decor{
+    padding: 2px;
+}
+
+@media (max-width: 768px) {
+  body{
+    font-size: 14px;  /* texto más pequeño en celular */
+  }
+  
+  body {
+    flex-direction: column; /* elementos en columna */
+  }
+}
