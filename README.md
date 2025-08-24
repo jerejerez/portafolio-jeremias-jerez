@@ -21,8 +21,6 @@ La página incluye secciones como:
 - **HTML5**: Para la estructura del sitio web.  
 - **CSS3**: Para el diseño y estilo de la página.  
 - **JavaScript**: Para interactividad básica.  
-- **Responsive Design**: La página se adapta a distintos tamaños de pantalla, incluyendo celulares.  
-
 ---
 
 ## ⚡ Funcionalidades principales
